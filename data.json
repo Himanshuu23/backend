@@ -1,0 +1,816 @@
+{
+  "wasteData": [
+    {
+      "productName": "banana peel",
+      "materialType": "organic waste",
+      "disposalOptions": "composting facilities, green waste recycling centers",
+      "properDisposal": "add to compost bins, drop off locations for organic waste recycling",
+      "recyclingInstructions": "no need to rinse, can go directly into composting bin"
+    },
+    {
+      "productName": "plastic bottle",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove caps before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "glass jar",
+      "materialType": "glass waste",
+      "disposalOptions": "glass recycling facilities, curbside recycling bins",
+      "properDisposal": "rinse thoroughly, remove labels if possible",
+      "recyclingInstructions": "place in glass recycling bin, avoid mixing with general waste"
+    },
+    {
+      "productName": "newspaper",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "aluminum can",
+      "materialType": "metal waste",
+      "disposalOptions": "metal recycling facilities, scrap metal collection points",
+      "properDisposal": "rinse and crush if necessary",
+      "recyclingInstructions": "drop in metal recycling bin, avoid throwing in general waste"
+    },
+    {
+      "productName": "cardboard box",
+      "materialType": "paper waste",
+      "disposalOptions": "cardboard recycling centers, curbside pickup",
+      "properDisposal": "flatten boxes and remove any plastic tape or stickers",
+      "recyclingInstructions": "ensure it is dry and clean before placing in recycling bin"
+    },
+    {
+      "productName": "food scraps",
+      "materialType": "organic waste",
+      "disposalOptions": "composting, organic waste collection services",
+      "properDisposal": "place in compost bins or organic waste collection bins",
+      "recyclingInstructions": "avoid mixing with plastic or non-compostable items"
+    },
+    {
+      "productName": "electronics",
+      "materialType": "e-waste",
+      "disposalOptions": "e-waste recycling centers, manufacturer take-back programs",
+      "properDisposal": "remove batteries and cables before recycling",
+      "recyclingInstructions": "drop off at e-waste recycling facilities, do not throw in general waste"
+    },
+    {
+      "productName": "styrofoam cup",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized styrofoam recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept styrofoam before disposal"
+    },
+    {
+      "productName": "clothing",
+      "materialType": "textile waste",
+      "disposalOptions": "donation centers, textile recycling facilities",
+      "properDisposal": "wash and fold before donation, separate damaged items",
+      "recyclingInstructions": "donate usable clothes, recycle torn fabrics at textile recycling centers"
+    },
+    {
+      "productName": "ceramic plate",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized ceramic recycling programs",
+      "properDisposal": "wrap in newspaper to prevent breakage before disposal",
+      "recyclingInstructions": "check if local programs accept ceramics before disposal"
+    },
+    {
+      "productName": "used batteries",
+      "materialType": "hazardous waste",
+      "disposalOptions": "battery recycling facilities, electronic stores with take-back programs",
+      "properDisposal": "place in designated battery recycling bins, do not dispose in general waste",
+      "recyclingInstructions": "store in a cool, dry place before dropping off at a recycling center"
+    },
+    {
+      "productName": "old shoes",
+      "materialType": "textile waste",
+      "disposalOptions": "donation centers, shoe recycling programs",
+      "properDisposal": "clean before donation, check if local programs accept worn-out shoes",
+      "recyclingInstructions": "separate materials if possible (rubber soles, fabric upper) before recycling"
+    },
+    {
+      "productName": "light bulbs",
+      "materialType": "hazardous waste",
+      "disposalOptions": "specialized light bulb recycling programs, hardware store take-back bins",
+      "properDisposal": "place in designated recycling bins for bulbs, avoid breaking",
+      "recyclingInstructions": "do not throw in regular trash, check if local regulations require special handling"
+    },
+    {
+      "productName": "expired medicine",
+      "materialType": "hazardous waste",
+      "disposalOptions": "pharmacy take-back programs, hazardous waste collection centers",
+      "properDisposal": "do not flush down the toilet, return to a pharmacy disposal program",
+      "recyclingInstructions": "keep in original packaging and return to designated disposal locations"
+    },
+    {
+      "productName": "wooden furniture",
+      "materialType": "bulky waste",
+      "disposalOptions": "furniture recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for wood disposal or recycling"
+    },
+    {
+      "productName": "broken mirror",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, hazardous waste disposal centers",
+      "properDisposal": "wrap carefully in newspaper or cardboard before disposing",
+      "recyclingInstructions": "do not mix with regular glass recycling, handle with care"
+    },
+    {
+      "productName": "plastic bags",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic bag recycling bins, grocery store drop-off points",
+      "properDisposal": "clean and dry before recycling, avoid mixing with other recyclables",
+      "recyclingInstructions": "return to designated plastic bag recycling bins"
+    },
+    {
+      "productName": "batteries (alkaline, rechargeable, car batteries)",
+      "materialType": "hazardous waste",
+      "disposalOptions": "battery recycling centers, electronic stores with take-back programs",
+      "properDisposal": "place in designated battery recycling bins, do not dispose in general waste",
+      "recyclingInstructions": "store in a cool, dry place before dropping off at a recycling center"
+    },
+    {
+      "productName": "electronic devices (phones, computers, tablets)",
+      "materialType": "e-waste",
+      "disposalOptions": "e-waste recycling centers, manufacturer take-back programs",
+      "properDisposal": "remove batteries and cables before recycling",
+      "recyclingInstructions": "drop off at e-waste recycling facilities, do not throw in general waste"
+    },
+    {
+      "productName": "light bulbs (incandescent, fluorescent, LED)",
+      "materialType": "hazardous waste",
+      "disposalOptions": "specialized light bulb recycling programs, hardware store take-back bins",
+      "properDisposal": "place in designated recycling bins for bulbs, avoid breaking",
+      "recyclingInstructions": "do not throw in regular trash, check if local regulations require special handling"
+    },
+    {
+      "productName": "ink and toner cartridges",
+      "materialType": "hazardous waste",
+      "disposalOptions": "office supply stores with take-back programs, manufacturer recycling programs",
+      "properDisposal": "return to designated recycling locations, do not dispose in general waste",
+      "recyclingInstructions": "keep in original packaging and return to designated disposal locations"
+    },
+    {
+      "productName": "aerosol cans",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "ensure cans are empty before recycling, do not puncture",
+      "recyclingInstructions": "place in designated hazardous waste bins, do not throw in regular trash"
+    },
+    {
+      "productName": "yard waste (leaves, grass clippings)",
+      "materialType": "organic waste",
+      "disposalOptions": "composting facilities, green waste recycling centers",
+      "properDisposal": "add to compost bins, drop off locations for organic waste recycling",
+      "recyclingInstructions": "no need to rinse, can go directly into composting bin"
+    },
+    {
+      "productName": "shoes",
+      "materialType": "textile waste",
+      "disposalOptions": "donation centers, shoe recycling programs",
+      "properDisposal": "clean before donation, check if local programs accept worn-out shoes",
+      "recyclingInstructions": "separate materials if possible (rubber soles, fabric upper) before recycling"
+    },
+    {
+      "productName": "furniture",
+      "materialType": "bulky waste",
+      "disposalOptions": "furniture recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for wood disposal or recycling"
+    },
+    {
+      "productName": "mattresses",
+      "materialType": "bulky waste",
+      "disposalOptions": "mattress recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for mattress disposal or recycling"
+    },
+    {
+      "productName": "appliances (refrigerators, microwaves, washing machines)",
+      "materialType": "bulky waste",
+      "disposalOptions": "appliance recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for appliance disposal or recycling"
+    },
+    {
+      "productName": "cooking oil",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "store in a sealed container, do not pour down the drain",
+      "recyclingInstructions": "return to designated hazardous waste collection points"
+    },
+    {
+      "productName": "medications",
+      "materialType": "hazardous waste",
+      "disposalOptions": "pharmacy take-back programs, hazardous waste collection centers",
+      "properDisposal": "do not flush down the toilet, return to a pharmacy disposal program",
+      "recyclingInstructions": "keep in original packaging and return to designated disposal locations"
+    },
+    {
+      "productName": "paint and paint cans",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "ensure cans are empty before recycling, do not puncture",
+      "recyclingInstructions": "place in designated hazardous waste bins, do not throw in regular trash"
+    },
+    {
+      "productName": "motor oil",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "store in a sealed container, do not pour down the drain",
+      "recyclingInstructions": "return to designated hazardous waste collection points"
+    },
+    {
+      "productName": "tires",
+      "materialType": "bulky waste",
+      "disposalOptions": "tire recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for tire disposal or recycling"
+    },
+    {
+      "productName": "carpet",
+      "materialType": "bulky waste",
+      "disposalOptions": "carpet recycling programs, landfill, donation centers",
+      "properDisposal": "repair or repurpose if possible, donate if in usable condition",
+      "recyclingInstructions": "check local guidelines for carpet disposal or recycling"
+    },
+    {
+      "productName": "ceramics and pottery",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized ceramic recycling programs",
+      "properDisposal": "wrap in newspaper to prevent breakage before disposal",
+      "recyclingInstructions": "check if local programs accept ceramics before disposal"
+    },
+    {
+      "productName": "mirrors",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, hazardous waste disposal centers",
+      "properDisposal": "wrap carefully in newspaper or cardboard before disposing",
+      "recyclingInstructions": "do not mix with regular glass recycling, handle with care"
+    },
+    {
+      "productName": "window glass",
+      "materialType": "glass waste",
+      "disposalOptions": "glass recycling facilities, curbside recycling bins",
+      "properDisposal": "rinse thoroughly, remove labels if possible",
+      "recyclingInstructions": "place in glass recycling bin, avoid mixing with general waste"
+    },
+    {
+      "productName": "plastic utensils",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "disposable razors",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept disposable razors before disposal"
+    },
+    {
+      "productName": "toothbrushes",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept toothbrushes before disposal"
+    },
+    {
+      "productName": "cosmetic containers",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove caps before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "personal care products (shampoo bottles, lotion containers)",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove caps before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "cleaning product containers",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove caps before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "pesticide containers",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "ensure containers are empty before recycling, do not puncture",
+      "recyclingInstructions": "place in designated hazardous waste bins, do not throw in regular trash"
+    },
+    {
+      "productName": "herbicide containers",
+      "materialType": "hazardous waste",
+      "disposalOptions": "hazardous waste collection centers, specialized recycling programs",
+      "properDisposal": "ensure containers are empty before recycling, do not puncture",
+      "recyclingInstructions": "place in designated hazardous waste bins, do not throw in regular trash"
+    },
+    {
+      "productName": "fertilizer bags",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove caps before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "pet waste",
+      "materialType": "organic waste",
+      "disposalOptions": "composting facilities, green waste recycling centers",
+      "properDisposal": "add to compost bins, drop off locations for organic waste recycling",
+      "recyclingInstructions": "no need to rinse, can go directly into composting bin"
+    },
+    {
+      "productName": "diapers",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept diapers before disposal"
+    },
+    {
+      "productName": "sanitary products",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept sanitary products before disposal"
+    },
+    {
+      "productName": "contact lenses",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept contact lenses before disposal"
+    },
+    {
+      "productName": "eyeglasses",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept eyeglasses before disposal"
+    },
+    {
+      "productName": "CDs and DVDs",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept CDs and DVDs before disposal"
+    },
+    {
+      "productName": "cassette tapes",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept cassette tapes before disposal"
+    },
+    {
+      "productName": "vinyl records",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept vinyl records before disposal"
+    },
+    {
+      "productName": "books",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "greeting cards",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "envelopes (with and without windows)",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "junk mail",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "receipts",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "plastic wrap",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "aluminum foil",
+      "materialType": "metal waste",
+      "disposalOptions": "metal recycling facilities, scrap metal collection points",
+      "properDisposal": "rinse and crush if necessary",
+      "recyclingInstructions": "drop in metal recycling bin, avoid throwing in general waste"
+    },
+    {
+      "productName": "disposable plates and cups",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept disposable plates and cups before disposal"
+    },
+    {
+      "productName": "napkins and paper towels",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "egg cartons",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "milk cartons",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "juice boxes",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "cereal boxes",
+      "materialType": "paper waste",
+      "disposalOptions": "paper recycling centers, curbside recycling programs",
+      "properDisposal": "keep dry and free from food contamination",
+      "recyclingInstructions": "stack neatly and bundle if required by local recycling"
+    },
+    {
+      "productName": "plastic straws",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "plastic stirrers",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "coffee pods",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept coffee pods before disposal"
+    },
+    {
+      "productName": "tea bags",
+      "materialType": "organic waste",
+      "disposalOptions": "composting facilities, green waste recycling centers",
+      "properDisposal": "add to compost bins, drop off locations for organic waste recycling",
+      "recyclingInstructions": "no need to rinse, can go directly into composting bin"
+    },
+    {
+      "productName": "wine corks",
+      "materialType": "organic waste",
+      "disposalOptions": "composting facilities, green waste recycling centers",
+      "properDisposal": "add to compost bins, drop off locations for organic waste recycling",
+      "recyclingInstructions": "no need to rinse, can go directly into composting bin"
+    },
+    {
+      "productName": "bottle caps (metal and plastic)",
+      "materialType": "metal waste",
+      "disposalOptions": "metal recycling facilities, scrap metal collection points",
+      "properDisposal": "rinse and crush if necessary",
+      "recyclingInstructions": "drop in metal recycling bin, avoid throwing in general waste"
+    },
+    {
+      "productName": "lids (from jars and containers)",
+      "materialType": "metal waste",
+      "disposalOptions": "metal recycling facilities, scrap metal collection points",
+      "properDisposal": "rinse and crush if necessary",
+      "recyclingInstructions": "drop in metal recycling bin, avoid throwing in general waste"
+    },
+    {
+      "productName": "plastic rings (from six-packs)",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "packaging peanuts",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept packaging peanuts before disposal"
+    },
+    {
+      "productName": "bubble wrap",
+      "materialType": "plastic waste",
+      "disposalOptions": "plastic recycling centers, curbside recycling bins",
+      "properDisposal": "rinse and remove food residue before recycling",
+      "recyclingInstructions": "ensure it is clean and place in designated recycling bin"
+    },
+    {
+      "productName": "styrofoam products",
+      "materialType": "non-recyclable waste",
+      "disposalOptions": "landfill, specialized styrofoam recycling programs",
+      "properDisposal": "clean before disposal, avoid mixing with recyclables",
+      "recyclingInstructions": "check if local recycling programs accept styrofoam before disposal"
+    },
+  {
+    "productName": "Rubber bands",
+    "materialType": "rubber",
+    "disposalOptions": "landfill, recycling centers",
+    "properDisposal": "dispose in landfill or check for rubber recycling options",
+    "recyclingInstructions": "can be recycled at specialized facilities"
+  },
+  {
+    "productName": "Twist ties",
+    "materialType": "metal, plastic",
+    "disposalOptions": "landfill, recycling centers",
+    "properDisposal": "dispose in landfill or check for metal and plastic recycling",
+    "recyclingInstructions": "separate the metal from the plastic before recycling"
+  },
+  {
+    "productName": "Wire hangers",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "take to a metal recycling center",
+    "recyclingInstructions": "remove any plastic parts before recycling"
+  },
+  {
+    "productName": "Plastic hangers",
+    "materialType": "plastic",
+    "disposalOptions": "landfill, plastic recycling centers",
+    "properDisposal": "check with local recycling centers for plastic hanger recycling",
+    "recyclingInstructions": "clean before recycling"
+  },
+  {
+    "productName": "Socks",
+    "materialType": "textile",
+    "disposalOptions": "textile recycling, landfill",
+    "properDisposal": "check local textile recycling facilities or donate",
+    "recyclingInstructions": "if recycling, ensure no elastic or rubber parts"
+  },
+  {
+    "productName": "Underwear",
+    "materialType": "textile",
+    "disposalOptions": "textile recycling, landfill",
+    "properDisposal": "donate if gently used, or recycle at textile facilities",
+    "recyclingInstructions": "remove any metal or elastic parts before recycling"
+  },
+  {
+    "productName": "Bras",
+    "materialType": "textile",
+    "disposalOptions": "textile recycling, landfill",
+    "properDisposal": "donate if gently used, or recycle at textile recycling centers",
+    "recyclingInstructions": "remove any metal or rubber components"
+  },
+  {
+    "productName": "Belts",
+    "materialType": "leather, synthetic materials, metal",
+    "disposalOptions": "recycling centers, landfill",
+    "properDisposal": "donate if reusable or check for recycling options",
+    "recyclingInstructions": "separate leather from any metal components before recycling"
+  },
+  {
+    "productName": "Hats",
+    "materialType": "fabric, plastic, metal",
+    "disposalOptions": "donation, textile recycling, landfill",
+    "properDisposal": "donate or recycle at textile recycling centers",
+    "recyclingInstructions": "remove metal components before recycling"
+  },
+  {
+    "productName": "Scarves",
+    "materialType": "fabric",
+    "disposalOptions": "donation, textile recycling, landfill",
+    "properDisposal": "donate if gently used or recycle at textile facilities",
+    "recyclingInstructions": "ensure it's clean before recycling"
+  },
+  {
+    "productName": "Gloves",
+    "materialType": "fabric, rubber, leather",
+    "disposalOptions": "donation, textile recycling, landfill",
+    "properDisposal": "donate if gently used or recycle at textile recycling centers",
+    "recyclingInstructions": "remove any rubber or metal parts before recycling"
+  },
+  {
+    "productName": "Purses",
+    "materialType": "fabric, leather, synthetic materials",
+    "disposalOptions": "donation, landfill, textile recycling",
+    "properDisposal": "donate if reusable or recycle at textile recycling centers",
+    "recyclingInstructions": "separate fabric from any metal or leather components"
+  },
+  {
+    "productName": "Backpacks",
+    "materialType": "fabric, plastic, metal",
+    "disposalOptions": "donation, textile recycling, landfill",
+    "properDisposal": "donate if gently used or recycle at textile recycling centers",
+    "recyclingInstructions": "remove any metal parts before recycling"
+  },
+  {
+    "productName": "Suitcases",
+    "materialType": "plastic, fabric, metal",
+    "disposalOptions": "donation, recycling centers, landfill",
+    "properDisposal": "donate or recycle at local recycling centers",
+    "recyclingInstructions": "separate fabric from metal components before recycling"
+  },
+  {
+    "productName": "Sports equipment",
+    "materialType": "varies (metal, plastic, fabric)",
+    "disposalOptions": "donation, landfill, recycling centers",
+    "properDisposal": "donate if reusable, recycle at appropriate centers",
+    "recyclingInstructions": "check for materials and separate before recycling"
+  },
+  {
+    "productName": "Trophies",
+    "materialType": "metal, plastic, wood",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "scrap metal or donate if possible",
+    "recyclingInstructions": "separate metal parts before recycling"
+  },
+  {
+    "productName": "Medals",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at scrap metal facilities",
+    "recyclingInstructions": "ensure metal is separated from any ribbon parts"
+  },
+  {
+    "productName": "Keys",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal recycling centers",
+    "recyclingInstructions": "ensure all non-metal parts are removed"
+  },
+  {
+    "productName": "Locks",
+    "materialType": "metal, plastic",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at scrap metal facilities",
+    "recyclingInstructions": "remove plastic parts before recycling"
+  },
+  {
+    "productName": "Chains",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal recycling centers",
+    "recyclingInstructions": "separate any non-metal parts before recycling"
+  },
+  {
+    "productName": "Tools",
+    "materialType": "metal, plastic",
+    "disposalOptions": "scrap metal recycling, donation, landfill",
+    "properDisposal": "donate if usable, or recycle at scrap metal centers",
+    "recyclingInstructions": "separate metal from plastic components before recycling"
+  },
+  {
+    "productName": "Nails and screws",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at scrap metal facilities",
+    "recyclingInstructions": "remove any non-metal parts before recycling"
+  },
+  {
+    "productName": "Bolts and nuts",
+    "materialType": "metal",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal recycling centers",
+    "recyclingInstructions": "ensure all non-metal parts are removed"
+  },
+  {
+    "productName": "Pipes",
+    "materialType": "metal, plastic",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal or plastic recycling facilities",
+    "recyclingInstructions": "separate metal from plastic before recycling"
+  },
+  {
+    "productName": "Faucets",
+    "materialType": "metal, plastic",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal or plastic recycling centers",
+    "recyclingInstructions": "separate any non-metal parts before recycling"
+  },
+  {
+    "productName": "Showerheads",
+    "materialType": "metal, plastic",
+    "disposalOptions": "scrap metal recycling, landfill",
+    "properDisposal": "recycle at metal or plastic recycling centers",
+    "recyclingInstructions": "remove any non-metal components"
+  },
+  {
+    "productName": "Thermostats",
+    "materialType": "metal, plastic",
+    "disposalOptions": "electronics recycling, landfill",
+    "properDisposal": "recycle at electronics recycling centers",
+    "recyclingInstructions": "remove any batteries or hazardous materials before recycling"
+  },
+  {
+    "productName": "Smoke detectors",
+    "materialType": "plastic, metal, electronics",
+    "disposalOptions": "electronics recycling, landfill",
+    "properDisposal": "recycle at electronics recycling centers",
+    "recyclingInstructions": "remove any batteries before recycling"
+  },
+  {
+    "productName": "Fire extinguishers",
+    "materialType": "metal, chemical",
+    "disposalOptions": "specialized disposal, recycling centers",
+    "properDisposal": "take to hazardous waste disposal facilities",
+    "recyclingInstructions": "check local facilities for fire extinguisher recycling"
+  },
+  {
+    "productName": "Helmets",
+    "materialType": "plastic, foam, metal",
+    "disposalOptions": "recycling centers, landfill",
+    "properDisposal": "recycle at local centers or donate if reusable",
+    "recyclingInstructions": "remove any non-recyclable parts like foam"
+  },
+  {
+    "productName": "Car seats",
+    "materialType": "fabric, plastic, metal",
+    "disposalOptions": "donation, landfill, recycling centers",
+    "properDisposal": "donate if gently used, or recycle at special facilities",
+    "recyclingInstructions": "remove fabric from plastic or metal components"
+  },
+  {
+    "productName": "Strollers",
+    "materialType": "fabric, plastic, metal",
+    "disposalOptions": "donation, recycling centers, landfill",
+    "properDisposal": "donate if reusable, or recycle at local recycling centers",
+    "recyclingInstructions": "remove any non-recyclable components before recycling"
+  },
+  {
+    "productName": "Cribs",
+    "materialType": "wood, metal, plastic",
+    "disposalOptions": "donation, landfill, recycling centers",
+    "properDisposal": "donate if reusable, or recycle at furniture recycling centers",
+    "recyclingInstructions": "separate wood from metal or plastic parts"
+  },
+  {
+    "productName": "Toys",
+    "materialType": "plastic, fabric, metal",
+    "disposalOptions": "donation, landfill, recycling centers",
+    "properDisposal": "donate if usable, or recycle at appropriate recycling centers",
+    "recyclingInstructions": "separate any metal or electronic parts before recycling"
+  },
+  {
+    "productName": "Board games",
+    "materialType": "cardboard, plastic, metal",
+    "disposalOptions": "donation, recycling centers, landfill",
+    "properDisposal": "donate or recycle at local recycling facilities",
+    "recyclingInstructions": "remove any non-recyclable pieces before recycling"
+  },
+  {
+    "productName": "Puzzles",
+    "materialType": "cardboard, wood, plastic",
+    "disposalOptions": "donation, recycling centers, landfill",
+    "properDisposal": "donate or recycle at local recycling centers",
+    "recyclingInstructions": "remove plastic pieces before recycling"
+  },
+  {
+    "productName": "Musical instruments",
+    "materialType": "wood, metal, plastic, fabric",
+    "disposalOptions": "donation, recycling centers, landfill",
+    "properDisposal": "donate if reusable, or recycle at local recycling centers",
+    "recyclingInstructions": "separate materials for recycling"
+  },
+  {
+    "productName": "Sheet music",
+    "materialType": "paper",
+    "disposalOptions": "paper recycling, landfill",
+    "properDisposal": "recycle with paper products",
+    "recyclingInstructions": "remove any non-paper materials like bindings before recycling"
+  }
+ ]
+}
