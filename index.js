@@ -21,11 +21,11 @@ const corsOption = {
 
 app.use(express.json());
 app.use(cors(corsOption));
-app.use("/analyze", analyzeRoutes);
-app.use("/api", solarRoutes);
-app.use("/api", electricityRoutes);
-app.use("/user", userRoutes)
-app.use("/vendor", vendorRoutes)
+app.use("/api/analyze", analyzeRoutes);
+app.use("/api/api", solarRoutes);
+app.use("/api/api", electricityRoutes);
+app.use("/api/user", userRoutes)
+app.use("/api/vendor", vendorRoutes)
 
 // app.post('/api/submit', (req, res) => {
 //     const { name } = req.body;
