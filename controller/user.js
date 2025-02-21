@@ -3,7 +3,6 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const registerUser = async (req, res) => {
-  console.log("request recieved!")
   try {
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
@@ -35,7 +34,6 @@ const loginUser = async (req, res) => {
       return res.status(401).json({ error: "Invalid credentials" });
     }
 
-    // process.env.JWT_SECRET
     const token = jwt.sign({ userId: user._id }, 'process.env.JWT_SECRET', { expiresIn: "1h" });
     res.json({ token });
   } catch (error) {
