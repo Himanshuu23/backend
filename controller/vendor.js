@@ -5,7 +5,8 @@ const fetchNearestVendor = require("../utils/nearestVendor")
 const getCoordinates = require("../utils/getCoordinates");
 
 const registerVendor = async (req, res) => {
-  try {
+    console.log(req.body)
+    try {
     const { name, phone, password, address } = req.body;
     if (!name || !phone || !password || !address) {
       return res.status(400).json({ error: "Missing required fields" });
@@ -25,6 +26,7 @@ const registerVendor = async (req, res) => {
     await vendor.save();
     res.status(201).json({ message: "Vendor registered successfully", vendor });
   } catch (error) {
+      console.log(error)
     res.status(400).json({ error: error.message });
   }
 };

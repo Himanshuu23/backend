@@ -71,4 +71,19 @@ const deductGreenPoints = async (req, res) => {
   }
 };
 
-module.exports = { registerUser, loginUser, getUserByEmail, deductGreenPoints };
+const increaseGreenPoints = async (req, res) => {
+  try {
+    const { email } = req.body;
+    const user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    user.green_points += 15;
+    await user.save();
+
+    res.json({ message: "Green Points increased successfully", green_points: user.green_points });
+  } catch (error) {
+    res.status(500).json({ message: "Error increasing Green Points", error: error.message });
+  }
+};
+
+module.exports = { registerUser, loginUser, getUserByEmail, deductGreenPoints, increaseGreenPoints };
