@@ -72,7 +72,8 @@ const deductGreenPoints = async (req, res) => {
 };
 
 const increaseGreenPoints = async (req, res) => {
-  try {
+    console.log("request recieved for increasing the green points", req.body)
+    try {
     const { email } = req.body;
     const user = await User.findOne({ email });
     if (!user) return res.status(404).json({ message: "User not found" });
@@ -82,6 +83,7 @@ const increaseGreenPoints = async (req, res) => {
 
     res.json({ message: "Green Points increased successfully", green_points: user.green_points });
   } catch (error) {
+      console.log(error)
     res.status(500).json({ message: "Error increasing Green Points", error: error.message });
   }
 };
